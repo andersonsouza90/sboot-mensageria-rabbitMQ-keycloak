@@ -1,12 +1,11 @@
 package com.dandy.msclientes.application;
 
-import ch.qos.logback.core.net.server.Client;
 import com.dandy.msclientes.domain.Cliente;
 import com.dandy.msclientes.infra.repository.ClienteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 import java.util.Optional;
 
 @Service
